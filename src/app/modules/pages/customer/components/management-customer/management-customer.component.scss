@@ -1,0 +1,20 @@
+span {
+  color: #fff;
+  margin-left: 10rem;
+  font-size: 3rem;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+.success{
+  background-color: green;
+}
+
+button{
+  min-width: 15rem !important;
+  float: left !important;
+  max-width: 30rem !important;
+}

@@ -1,0 +1,16 @@
+<section class="overflow-hidden text-gray-700">
+  <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+    <div class="flex flex-wrap -m-1 md:-m-2">
+      <div class="flex flex-wrap w-1/3" *ngFor="let image of gallery">
+        <div class="w-50 p-1 md:p-2">
+          <img
+            alt="gallery"
+            class="block object-cover object-center w-50 h-50 rounded-lg"
+            src="{{ image.src }}"
+          />
+          <button (click)="removeImage(image.id)" class="remove">Remove</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
